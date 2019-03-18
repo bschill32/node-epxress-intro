@@ -7,7 +7,6 @@ const app = express()
 const user_controller = require('./user_controller')
 
 
-
 // RETURN ALL USERS ENDPOINT
 // here we are saying any get request to the '/api/users' url will run the method on the user_controller called getUsers
 app.get('/api/users', user_controller.getUsers)
